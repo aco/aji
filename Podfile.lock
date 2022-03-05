@@ -1,0 +1,54 @@
+PODS:
+  - Disk (0.6.4)
+  - Pageboy (3.6.2)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage (3.0.1):
+    - PINRemoteImage/PINCache (= 3.0.1)
+  - PINRemoteImage/Core (3.0.1):
+    - PINOperation
+  - PINRemoteImage/PINCache (3.0.1):
+    - PINCache (~> 3.0.1)
+    - PINRemoteImage/Core
+  - SwiftNotificationCenter (1.0.4)
+  - SwiftyStoreKit (0.16.1)
+  - Tabman (2.9.1):
+    - Pageboy (~> 3.6.0)
+
+DEPENDENCIES:
+  - Disk
+  - PINRemoteImage
+  - SwiftNotificationCenter
+  - SwiftyStoreKit
+  - Tabman
+
+SPEC REPOS:
+  trunk:
+    - Disk
+    - Pageboy
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - SwiftNotificationCenter
+    - SwiftyStoreKit
+    - Tabman
+
+SPEC CHECKSUMS:
+  Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: 3b7cedb118c2d357f87e9eabc7c81ba0202cb236
+  SwiftNotificationCenter: 760386da2ce03d3594cb5e96d1e22ec80b44b46f
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  Tabman: 085d89c65be9e883629bdaf5b1453a6397e57846
+
+PODFILE CHECKSUM: 22ec454ce0ba991d82ade477bcd4c6a08cf6b8b7
+
+COCOAPODS: 1.9.3

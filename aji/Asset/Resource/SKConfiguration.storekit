@@ -1,0 +1,49 @@
+{
+  "identifier" : "3744B843",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "C2DB9B98",
+      "localizations" : [
+
+      ],
+      "name" : "",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "57739545",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "co.neanews.aji.prorenew",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "ajipro",
+          "subscriptionGroupID" : "C2DB9B98",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

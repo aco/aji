@@ -1,0 +1,69 @@
+[
+	{
+		"recipeInstructions": "Array.prototype.map.call(document.querySelectorAll('div.entry-content > ol > li'), l => l.innerText)",
+		"imageUrl": "document.querySelector('img.aligncenter').src",
+		"updated": 10,
+		"recipeIngredient": "Array.prototype.map.call(document.querySelectorAll('div.entry-content > ul > li'), l => l.innerText)",
+		"name": "document.querySelector('h1.entry-title').innerText",
+		"domain": "recipes.farmhousedelivery.com"
+	},
+	{
+		"recipeInstructions": "Array.prototype.map.call(document.querySelectorAll('[itemprop=recipeInstructions]'), l => l.innerText)",
+		"prepTime": "document.querySelector('[itemprop=prepTime]').content",
+		"imageUrl": "document.getElementsByTagName('img')[0].src",
+		"updated": 10,
+		"yield": "document.querySelector('[itemprop=recipeYield]').innerText",
+		"cookTime": "document.querySelector('[itemprop=cookTime]').content",
+		"recipeIngredient": "Array.prototype.map.call(document.querySelectorAll('[itemprop=recipeIngredient]'), l => l.innerText)",
+		"description": "document.querySelector('[itemprop=description]').innerText",
+		"name": "document.querySelector('[itemprop=name]').innerText",
+		"domain": "closetcooking.com"
+	},
+	{
+		"recipeInstructions": "Array.prototype.map.call(document.querySelectorAll('li.preparation-step'), l => l.innerText)",
+		"imageUrl": "document.querySelector('picture > source').srcset",
+		"updated": 10,
+		"yield": "document.querySelector('[itemprop=recipeYield]').innerText",
+		"cookTime": "document.querySelector('[itemprop=cookTime]').content",
+		"recipeIngredient": "Array.prototype.map.call(document.querySelectorAll('ul.ingredients > li'), l => l.innerText)",
+		"description": "document.querySelector('[itemprop=description]').innerText",
+		"name": "document.querySelector('[itemprop=name]').content",
+		"domain": "epicurious.com"
+	},
+	{
+		"recipeInstructions": "Array.prototype.map.call(document.querySelectorAll('div.field--name-field-body2 * p, div.field--name-field-recipe-body2 * li, div.field--name-field-recipe-body2 > p'), l => l.innerText).filter(l => l.length > 3)",
+		"imageUrl": "document.querySelector('.image-zone picture img').src",
+		"updated": 10,
+		"yield": "document.querySelector('.field--name-field-recipe-serving-num').innerText",
+		"cookTime": "JSON.parse(document.querySelectorAll('script[type='application/ld+json']')[0].innerText)['@graph'][0].totalTime",
+		"recipeIngredient": "Array.prototype.map.call(document.querySelectorAll('div.paragraph--type--recipe-ingredient'), l => l.innerText.replace(/[\\n\\r]/g, ' '))",
+		"description": "document.querySelector('div.field--type-text-with-summary').innerText",
+		"name": "document.querySelector('div.content-zone > h3').innerText",
+		"cuisine": "document.querySelector('.field--name-field-recipe-ref-cuisine').innerText",
+		"author": "document.querySelector('[itemprop=url]').title",
+		"domain": "finedininglovers.com"
+	},
+	{
+		"imageUrl": "document.querySelector('.image__picture > img').src",
+		"prepTime": "document.querySelectorAll('.cook-and-prep-time * time')[0].dateTime",
+		"recipeInstructions": "Array.prototype.map.call(document.querySelectorAll('.recipe__method-steps * p'), p => p.innerText)",
+		"updated": 1605571928,
+		"yield": "document.querySelector('.masthead__servings').innerText",
+		"cookTime": "document.querySelectorAll('.cook-and-prep-time * time')[1].dateTime",
+		"recipeIngredient": "Array.prototype.map.call(document.querySelectorAll('.recipe__ingredients * li'), p => p.innerText)",
+		"description": "document.querySelector('.editor-content > p').innerText",
+		"name": "document.querySelector('.post-header__title').innerText",
+		"author": "document.querySelector('.masthead__author > a').innerText",
+		"domain": "bbcgoodfood.com"
+	},
+	{
+		"recipeInstructions": "Array.prototype.map.call(document.getElementsByClassName('recipePartStepDescription'), (l) => l.innerText)",
+		"imageUrl": "document.querySelector('[itemprop=image]').content",
+		"updated": 10,
+		"yield": "document.querySelector('#gmi_rp_primaryAttributes_servings > span.attributeValue').innerText",
+		"recipeIngredient": "Array.prototype.map.call(document.getElementsByClassName('recipePartIngredient'), (l) => l.innerText.replace(/[\\n\\r]/g, ' '))",
+		"description": "document.querySelector('[itemprop=description]').content",
+		"name": "document.querySelector('[itemprop=name]').innerText",
+		"domain": "bettycrocker.com"
+	}
+]
